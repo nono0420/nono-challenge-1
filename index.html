@@ -7,14 +7,18 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-
     <title>Frontend Mentor | QR code component</title>
   </head>
   <body>
-    <main class="h-screen bg-indigo-100">
-      <!-- 不必要的內容可以自行刪除! -->
-      Hello world!
-      <div class="text-xl text-green-500">Try first here!</div>
+    <main class="h-screen bg-indigo-100 flex justify-center items-center">
+      <section class="w-96 bg-white p-5 rounded-3xl hover:shadow-lg shadow-gray-300 cursor-pointer">
+        <img class="rounded-xl" src="images/image-qr-code.png">
+        <div>
+          <h1 class="text-2xl font-black px-5 pt-5 text-center font-sans">Improve your font-end skills by building projects</h1>
+          <p class="font-bold text-slate-400 p-5 text-center">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        </div>
+        <button class="w-40 py-2 rounded-md text-white font-bold md:bg-blue-500 hover:bg-sky-400 active:bg-sky-500 bg-yellow-400">I GOT IT</button>
+      </section>
     </main>
   </body>
 </html>
